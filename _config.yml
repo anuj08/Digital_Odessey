@@ -19,18 +19,22 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Digital Odessey
-email: anujsingh7128@gmail.com
+email: anujsingh7128 at gmail dot com
 description: >- # this means to ignore newlines until "baseurl:"
-  A journey from a noob to a (*hopefully) a pro software engineer. Here you'll find tons (eventually ofc) of installation instructuctions, 
-  terminal hacks, algo problems, software design and more!!
+  Systems Setups Sarcasm
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  anuj08
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: BDHU/minimalist
+# minima:
+#   skin: dark
 plugins:
   - jekyll-feed
+
+github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +55,21 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# minimalist-theme specific
+sidebar:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/anuj08
+
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/anujsingh08/
+
+  - name: About me!
+    icon: <i class="fa-solid fa-user"></i>
+    link: /about/
+
+  - name: Did you mean recursion?
+    link: https://www.google.com/search?q=recursion

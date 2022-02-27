@@ -3,6 +3,7 @@ layout : post
 title : "Create your own Jekyll Website!"
 date : 2022-02-22 12:25:00 -0500
 categories : Installations
+tags : [Installations, Linux]
 ---
 
 Environment : Ubuntu 20.04
