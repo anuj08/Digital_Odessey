@@ -53,11 +53,14 @@ github: [metadata]
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
-#   - vendor/gems/
+#   - vendor/gems/ls
+
 #   - vendor/ruby/
 
 
 # minimalist-theme specific
+
+logo: /assets/images/logo.png
 sidebar:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
